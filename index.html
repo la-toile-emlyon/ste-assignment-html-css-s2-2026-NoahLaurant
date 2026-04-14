@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- en-tête -->
-     <header>
-        <img src="asset/motion-designer/logo.png" alt="">
+     <header class="flex bg-bleu space-between">
+        <img src="asset/motion-designer/logo-transparent.png" alt="" class="w-5">
 
         <nav>
-            <a href="">Promesse</a>
-            <a href="">Service</a>
-            <a href="">Témoignages</a>
-            <a href=""></a>
-            <a href="">Contact</a>
+            <a href="#promesse" class="blanc">Promesse</a>
+            <a href="#service" class="blanc">Service</a>
+            <a href="#projet" class="blanc">Réalisation</a>
+            <a href="#temoignage" class="blanc">Témoignages</a>
+            <a href="#contact" class="btn">Contact</a>
         </nav>
         
      </header>
@@ -26,90 +28,90 @@
       <main>
         
         <!-- section 1 -->
-         <section>
+         <section class="container-1000 flex align-center pb-32 pt-32">
 
             <!-- div Titre -->
-            <div>
+            <div class="w-50">
                 <h1>Léo Vanel Motion</h1>
-                <p>Donner vie à vos idées par le mouvement</p>
-                <a href="">Votre devis sous 24h</a>
-                <a href="">Voir mes projets</a>
+                <p class="pb-32">Donner vie à vos idées par le mouvement</p>
+                <a href="" class="btn">Votre devis sous 24h</a>
+                <a href="#projet" class="btn">Voir mes projets</a>
             </div>
 
             <!-- div image -->
-            <div>
-                <img src="asset/motion-designer/imageTitre.jpg" alt="">
+            <div class="w-50">
+                <img src="asset/motion-designer/imageTitre.jpg" alt="" class="w-100 pt-32">
             </div>
 
          </section>
 
          <!-- section 2 -->
-          <section>
-            <h2>Promesse</h2>
-            <p>Une vision artistique et professionnelle au service de votre communication</p>
+          <section class="container-1000 flex align-center pb-32" id="promesse">
+            <h2 class="w-100 txt-center pb-32">Promesse</h2>
+            <p class="txt-center">Une vision artistique et professionnelle au service de votre communication</p>
 
-            <div>
-                <img src="asset/motion-designer/promesse.png" alt="">
+            <div class="w-50 pb-128">
+                <img src="asset/motion-designer/promesse.png" alt="" class="w-48">
                 <img src="" alt="">
-                <img src="asset/motion-designer/couverture.png" alt="">
+                <img src="asset/motion-designer/couverture.png" alt="" class="w-48">
             </div>
 
-            <div>
-                <ul>
+            <div class="w-50">
+                <ul class="pb-16">
                     <li>Un style d’animation fluide et expressif, adapté à chaque univers de marque</li>
                     <li>Une écoute attentive pour comprendre vos besoins et votre ton</li>
                     <li>Des livrables optimisés pour les réseaux sociaux, le web ou la diffusion grand écran</li>
                     <li>Un workflow agile pour une production rapide et collaborative</li>
                 </ul>
-                <a href="">Appel a l'action</a>
+                <a href="" class="btn">Appel a l'action</a>
             </div>
           </section>
 
           <!-- section 3 -->
-           <section>
-            <h2>Services proposés</h2>
+           <section class="container-1000 pb-32 align-center" id="service">
+            <h2 class="txt-center pt-32 pb-32">Services proposés</h2>
 
-            <div>
+            <div class="flex">
 
                 <!-- premier service -->
-                <div>
-                    <img src="asset/motion-designer/services/animation.png" alt="">
+                <div class="w-30">
+                    <img src="asset/motion-designer/services/animation.png" alt="" class="w-48">
                     <h3>Animation 2D / 3D</h3>
-                    <p>Conception et animation de visuels dynamiques pour vos vidéos, publicités, ou présentations professionnelles.</p>
-                    <a href="">En savoir plus</a>
+                    <p class="pb-16">Conception et animation de visuels dynamiques pour vos vidéos, publicités, ou présentations professionnelles.</p>
+                    <a href="" class="btn">En savoir plus</a>
                 </div>
 
                 <!-- deuxiéme service -->
-                <div>
-                    <img src="asset/motion-designer/services/video-explicative.png" alt="">
+                <div class="w-30">
+                    <img src="asset/motion-designer/services/video-explicative.png" alt="" class="w-48">
                     <h3>Vidéo explicative</h3>
-                    <p>Création de vidéos animées pédagogiques pour présenter un service, un produit ou une idée de manière claire et engageante.</p>
-                    <a href="">En savoir plus</a>
+                    <p class="pb-16">Création de vidéos animées pédagogiques pour présenter un service, un produit ou une idée de manière claire et engageante.</p>
+                    <a href="" class="btn">En savoir plus</a>
                 </div>
 
                 <!-- troisiéme service -->
-                <div>
-                    <img src="asset/motion-designer/services/identite-animee.png" alt="">
+                <div class="w-30">
+                    <img src="asset/motion-designer/services/identite-animee.png" alt="" class="w-48">
                     <h3>Identité animée</h3>
-                    <p>Animation de logos et d’éléments graphiques pour renforcer la reconnaissance de votre marque dans vos contenus vidéo.</p>
-                    <a href="">En savoir plus</a>
+                    <p class="pb-16">Animation de logos et d’éléments graphiques pour renforcer la reconnaissance de votre marque dans vos contenus vidéo.</p>
+                    <a href="" class="btn">En savoir plus</a>
                 </div>
 
             </div>
            </section>
 
            <!-- section 4 -->
-            <section>
-                <h2>Réalisations</h2>
+            <section class="container-1000 pb-32 pt-32" id="projet">
+                <h2 class="txt-center pb-32">Réalisations</h2>
 
                 <!-- premiére div -->
-                <div>
+                <div class="w-100 flex align-center pb-32">
                     
-                    <div>
-                        <img src="asset/motion-designer/projets/atelier-nimbus.png" alt="">
+                    <div class="w-50">
+                        <img src="asset/motion-designer/projets/atelier-nimbus.png" alt="" class="w-48">
                     </div>
 
-                    <div>
+                    <div class="w-50">
                         <h3>Logo animé – Atelier Nimbus</h3>
                         <p>Création d’une animation de logo pour une marque de textile éthique. Mouvement doux et organique, évoquant la légèreté du coton bio.</p>
                     </div>
@@ -117,26 +119,27 @@
                 </div>
 
                 <!-- deuxiéme div -->
-                <div>
+                <div class="w-100 flex align-center pb-32">
 
-                    <div>
+                    <div class="w-50">
                         <h3>Fintrack App</h3>
                         <p>Réalisation d’une vidéo animée présentant une application de gestion financière. Un ton clair, moderne et accessible.</p>
                     </div>
 
-                    <div><img src="asset/motion-designer/projets/fintrack.png" alt="">
+                    <div class="w-50">
+                        <img src="asset/motion-designer/projets/fintrack.png" alt="" class="w-48">
                     </div>
 
                 </div>
 
                 <!-- troisiéme div -->
-                <div>
+                <div class="w-100 flex align-center pb-32">
                     
-                    <div>
-                        <img src="asset/motion-designer/projets/festival-futur.png" alt="">
+                    <div class="w-50">
+                        <img src="asset/motion-designer/projets/festival-futur.png" alt="" class="w-48">
                     </div>
 
-                    <div>
+                    <div class="w-50">
                         <h3>Campagne motion – Festival du Futur</h3>
                         <p>Animation d’affiches et de vidéos teaser pour un festival de création numérique. Style vibrant et typographies en mouvement.</p>
                     </div>
@@ -144,14 +147,15 @@
                 </div>
 
                 <!-- quatriéme div -->
-                 <div>
+                 <div class="w-100 flex align-center pb-32">
 
-                    <div>
+                    <div class="w-50">
                         <h3>Habillage vidéo – GrooveTV</h3>
                         <p>Création de transitions, jingles et lower thirds pour une chaîne web. Identité graphique énergique et rythmée.</p>
                     </div>
 
-                    <div><img src="asset/motion-designer/projets/groove-tv.png" alt="">
+                    <div class="w-50">
+                        <img src="asset/motion-designer/projets/groove-tv.png" alt="" class="w-48">
                     </div>
 
                 </div>
@@ -159,66 +163,82 @@
             </section>
 
             <!-- section 5 -->
-            <section>
-                <h2>Témoignages</h2>
-                <div>
-                <a href=""></a>
-
-                <div>
-                    <p>Léo a tout de suite compris le ton que nous voulions pour notre vidéo. Le rendu est à la fois professionnel et accessible. Parfait pour nos clients !</p>
-                    <div>
-                    <img src="" alt="">
-                    <p>Camille Vidéo explicative</p>
+            <section class="pb-32 pt-32 txt-center flex" id="temoignage">
+                <h2 class="pb-16 w-100">Témoignages</h2>
+                
+                
+            <div class="flex align-center m-8 container-1000 space-around">
+                <!-- premier client -->
+                 <a href="" class="font-fleche"><i class="ph ph-arrow-circle-left"></i></a>
+                <div class="w-25 bg-bleu">
+                    <p class="blanc">Léo a tout de suite compris le ton que nous voulions pour notre vidéo. Le rendu est à la fois professionnel et accessible. Parfait pour nos clients !</p>
+                    <div class="flex pt-10 align-center">
+                    <img src="asset/motion-designer/client-1.png" alt="" class="w-20">
+                    <p class="blanc w-50">Camille Vidéo explicative</p>
                 </div>
 
                 </div>
                 
-                <div>
-                    <p>Animation fluide, cohérente avec notre charte, livrée dans les temps. Très bon échange tout au long du projet.</p>
-                    <div>
-                        <img src="" alt="">
-                        <p>Rachid Logo animé</p>
+                <!-- deuxiéme client -->
+                <div class="w-25 bg-bleu pt-10 pb-10">
+                    <p class="blanc">Animation fluide, cohérente avec notre charte, livrée dans les temps. Très bon échange tout au long du projet.</p>
+                    <div class="flex pt-10 align-center">
+                        <img src="asset/motion-designer/client-2.png" alt="" class="w-20">
+                        <p class="blanc w-50">Rachid Logo animé</p>
                     </div>
 
                 </div>
 
-                </div>
-
-                <div>
-                <div>
-                    <p>Une super collaboration : Léo a su s’adapter à nos contraintes techniques et proposer des idées originales. Résultat top !</p>
-                    <div>
-                        <img src="" alt="">
-                        <p></p>
+            
+                <!-- troisiéme client -->
+                <div class="w-25 bg-bleu pt-10 pb-10">
+                    <p class="blanc">Une super collaboration : Léo a su s’adapter à nos contraintes techniques et proposer des idées originales. Résultat top !</p>
+                    <div class="flex pt-10 align-center">
+                        <img src="asset/motion-designer/client-3.png" alt="" class="w-20">
+                        <p class="blanc w-50">Élise  Habillage vidéo</p>
+                    
                     </div>
-
+                    
                 </div>
-
-                <a href=""></a>
+                
+            <a href="" class="font-fleche"><i class="ph ph-arrow-circle-right"></i></a>
             </div>
-
+                
+                
             </section>
 
       </main>
     
       <!-- bas de la page -->
-       <footer>
-        <div>
-            <h2></h2>
-            <p></p>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+       <footer class="flex space-between pb-32 container-1000" id="contact">
+        <div class="w-30">
+            <h2>Prêts à travailler ensemble ?</h2>
+            <p class="pb-16">Une idée, un projet, une envie de collaboration ? Contactez-nous, nous serons ravis d’en discuter et de voir comment avancer ensemble.Laissez votre contact téléphonique et je vous rappellerai.</p>
+            <a href=""><i class="ph ph-discord-logo"></i></a>
+            <a href=""><i class="ph ph-facebook-logo"></i></a>
+            <a href=""><i class="ph ph-facebook-logo"></i></a>
+            <a href=""><i class="ph ph-instagram-logo"></i></a>
+            <a href=""><i class="ph ph-behance-logo"></i></a>
         </div>
 
-        <div>
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <a href=""></a>
+        <div class="w-30">
+            <div class="w-100 pb-16">
+            <input type="text" id="name" name="name" required minlength="4" maxlength="15" size="40"placeholder="nom"/>
+           </div>
+
+           <div class="w-100 pb-16">
+            <input  type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required size="40" placeholder="téléphone" />
+            </div>
+
+            <div class="w-100 pb-16">
+            <input type="email" id="email" pattern=".+@exemple\.com" size="40" required placeholder="email" />
+            </div>
+
+            <div class="w-100 pb-16">
+            <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="40" placeholder="message" />
+            </div>
+
+            <a href="" class="btn"> envoyer</a>
         </div>
 
        </footer>
