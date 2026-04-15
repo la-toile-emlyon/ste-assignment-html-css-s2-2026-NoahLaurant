@@ -54,6 +54,7 @@ h3{
 .taille-i{
     font-size: 50px;
 }
+
 /*-------------------------------
 LARGEURS
 ---------------------------------*/
@@ -235,6 +236,10 @@ header{
     display: inline-block;
     color: white;
 
+}
+
+.btn:hover{
+    background-color: #4A5568;
 }
 
 a{
