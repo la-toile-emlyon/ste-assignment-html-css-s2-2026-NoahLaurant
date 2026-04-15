@@ -59,6 +59,10 @@ h3{
 LARGEURS
 ---------------------------------*/
 
+.w-max{
+    width: max-content;
+}
+
 .w-100{
     width: 100%;
 }
@@ -87,6 +91,14 @@ LARGEURS
     width: 5%;
 }
 
+.taille-img{
+    width: 40px;
+}
+
+.carte-temoignage{
+    max-width: 2000px;
+}
+
 /*----------------------------
 FLEX BOX
 ------------------------------*/
@@ -96,6 +108,10 @@ FLEX BOX
     flex-wrap: wrap;
 }
 
+.flex-no-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -137,6 +153,10 @@ MARGING & PADDING
     margin: 8px;
 }
 
+.mr-10{
+    margin-right: 10px;
+}
+
 .mt-16{
     margin-top: 16px;
 }
@@ -155,6 +175,14 @@ MARGING & PADDING
 
 .mt-128{
     margin-top: 128px;
+}
+
+.p-8{
+    padding: 8px;
+}
+
+.pr-8{
+    padding-right: 8px;
 }
 
 .pt-10{
@@ -235,11 +263,12 @@ header{
     background-color: #103571;
     display: inline-block;
     color: white;
+    font-family: "Inter", sans-serif;
 
 }
 
 .btn:hover{
-    background-color: #4A5568;
+   transform: scale(1.1);
 }
 
 a{
@@ -251,3 +280,13 @@ a{
 .font-fleche{
     font-size: 30px;
 }
+
+
+/*AUTRE*/
+
+.overflow{
+    overflow-x: scroll;
+}
+
+
+
