@@ -51,6 +51,9 @@ h3{
     color: #4A5568;
 }
 
+.taille-i{
+    font-size: 50px;
+}
 /*-------------------------------
 LARGEURS
 ---------------------------------*/
@@ -106,6 +109,10 @@ FLEX BOX
 
 .justify-center{
     justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
 }
 
 .gap-8{
@@ -199,6 +206,20 @@ header{
     width:100%;
     height: 50px;
 }
+.relative{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.absolute-couverture{
+    position: absolute;
+    top: 950px;
+    left: 350px;
+    width: 20%;
+    z-index: -1;
+}
 
 /*FOND*/
 
@@ -211,6 +232,7 @@ header{
 
 .btn{
     background-color: #103571;
+    display: inline-block;
     color: white;
 
 }
